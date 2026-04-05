@@ -286,7 +286,7 @@ a {
 
 .movie-row {
     display: flex;
-    gap: 35px;
+    gap: 38px;
     overflow: hidden;
     position: relative;
 }
@@ -294,8 +294,8 @@ a {
 /* CARD */
 
 .movie-item {
-    flex: 0 0 200px;
-    height: 300px;
+    flex: 0 0 210px;
+    height: 310px;
     border-radius: 8px;
     overflow: hidden;
     position: relative;
@@ -319,8 +319,8 @@ a {
 
 .movie-rank {
     position: absolute;
-    bottom: -8px;
-    left: -8px;
+    bottom: -18px;
+    left: -18px;
     font-size: 5rem;
     font-weight: 900;
     color: #000000;
@@ -328,6 +328,7 @@ a {
     line-height: 1;
     z-index: 5;
 }
+
 
 
 /* RIGHT FADE (PARTIAL CARD EFFECT) */
