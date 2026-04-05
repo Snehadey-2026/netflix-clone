@@ -321,17 +321,23 @@ a {
 
 .movie-rank {
     position: absolute;
-    bottom: 30px;
-    left: -8px;
-    font-size: 4rem;
+    bottom: 50px;
+    left: -7px;
+    font-size: 5rem;
     font-weight: 900;
     color: #000000;
     -webkit-text-fill-color: #000000;
-    -webkit-text-stroke: 1px #ffffff;
+    
     line-height: 1;
     z-index: 10;
     letter-spacing: -0.05em;
-    text-shadow: none;
+     text-shadow: 
+        2px 2px 0 #000,
+        4px 4px 8px rgba(0,0,0,0.6);
+
+    line-height: 1;
+    z-index: 20;
+    letter-spacing: -0.05em;
 }
 
 
