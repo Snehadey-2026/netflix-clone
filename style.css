@@ -298,7 +298,7 @@ a {
     max-width: calc((100% - 4 * 30px) / 5);
     height: 300px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     transition: transform 0.3s ease;
 }
@@ -321,17 +321,15 @@ a {
 
 .movie-rank {
     position: absolute;
-    bottom: 0;
-    left: -10px;
-    transform: translateY(45%);
-    font-size: 3.6rem;
+    bottom: -12px;
+    left: -8px;
+    font-size: 3.7rem;
     font-weight: 900;
     color: #000000;
     -webkit-text-fill-color: #000000;
     -webkit-text-stroke: 1px #ffffff;
-    text-shadow: 1px #ffffff;
-    line-height: 0.95;
-    z-index: 5;
+    line-height: 1;
+    z-index: 10;
     letter-spacing: -0.05em;
     text-shadow: none;
 }
