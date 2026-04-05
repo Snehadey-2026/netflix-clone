@@ -319,14 +319,15 @@ a {
 
 .movie-rank {
     position: absolute;
-    bottom: -10px;
-    left: -10px;
-    font-size: 6rem;
+    bottom: -15px;
+    left: -15px;
+    font-size: 7rem;
     font-weight: 900;
-    color: #000000;
-    -webkit-text-stroke: 0px;
+    color: transparent;
+    -webkit-text-stroke: 3px #ffffff;
     line-height: 1;
     z-index: 5;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 /* RIGHT FADE (PARTIAL CARD EFFECT) */
@@ -336,7 +337,7 @@ a {
     position: absolute;
     right: 0;
     top: 0;
-    width: 150px;
+    width: 120px;
     height: 100%;
     background: linear-gradient(to left, #000, transparent);
     pointer-events: none;
@@ -345,36 +346,52 @@ a {
 /* ARROW POSITION (AFTER 5 CARDS) */
 
 .carousel-control-next {
-    right: 20px;
-    width: 50px;
-    height: 50px;
+    right: -40px;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    opacity: 1;
 }
 
 .carousel-control-prev {
-    left: 20px;
-    width: 50px;
-    height: 50px;
+    left: -70px;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    opacity: 1;
 }
 
 /* ARROW STYLE */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-size: 50%;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff" viewBox="0 0 16 16"><path d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>') !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff" viewBox="0 0 16 16"><path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>') !important;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .carousel-control-prev:disabled,
 .carousel-control-next:disabled {
     opacity: 0.3;
+    pointer-events: none;
 }
 /* ==================== BODY SECTION ==================== */
 .body-section {
