@@ -321,9 +321,9 @@ a {
 
 .movie-rank {
     position: absolute;
-    bottom: -2px;
+    bottom: 30px;
     left: -8px;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     color: #000000;
     -webkit-text-fill-color: #000000;
