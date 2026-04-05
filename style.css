@@ -286,7 +286,7 @@ a {
 
 .movie-row {
     display: flex;
-    gap: 25px;
+    gap: 35px;
     overflow: hidden;
     position: relative;
 }
@@ -294,8 +294,8 @@ a {
 /* CARD */
 
 .movie-item {
-    flex: 0 0 220px;
-    height: 320px;
+    flex: 0 0 200px;
+    height: 300px;
     border-radius: 8px;
     overflow: hidden;
     position: relative;
@@ -319,16 +319,16 @@ a {
 
 .movie-rank {
     position: absolute;
-    bottom: -15px;
-    left: -15px;
-    font-size: 7rem;
+    bottom: -8px;
+    left: -8px;
+    font-size: 5rem;
     font-weight: 900;
-    color: transparent;
-    -webkit-text-stroke: 3px #ffffff;
+    color: #000000;
+    -webkit-text-stroke: 2px #ffffff;
     line-height: 1;
     z-index: 5;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
+
 
 /* RIGHT FADE (PARTIAL CARD EFFECT) */
 
