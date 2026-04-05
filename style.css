@@ -63,9 +63,9 @@ a {
 }
 
 .header-container {
-    max-width: 1400px;
+    max-width: 1240px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -268,8 +268,8 @@ a {
 
 .trending-section {
     background: #000;
-    padding: 80px 40px 60px;
-    max-width: 1400px;
+    padding: 80px 20px 60px;
+    max-width: 1240px;
     margin: auto;
     position: relative;
 }
@@ -286,7 +286,7 @@ a {
 
 .movie-row {
     display: flex;
-    gap: 45px;
+    gap: 30px;
     overflow: hidden;
     position: relative;
 }
@@ -294,9 +294,10 @@ a {
 /* CARD */
 
 .movie-item {
-    flex: 0 0 192px;
+    flex: 0 0 calc((100% - 4 * 30px) / 5);
+    max-width: calc((100% - 4 * 30px) / 5);
     height: 300px;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
     transition: transform 0.3s ease;
@@ -306,6 +307,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 /* HOVER */
@@ -319,14 +321,15 @@ a {
 
 .movie-rank {
     position: absolute;
-    bottom: -10px;
-    left: -12px;
-    font-size: 4.5rem;
+    bottom: -4px;
+    left: -4px;
+    font-size: 3.8rem;
     font-weight: 900;
     color: #000000;
     -webkit-text-stroke: 1px #ffffff;
     line-height: 1;
     z-index: 5;
+    letter-spacing: -0.04em;
 }
 
 
