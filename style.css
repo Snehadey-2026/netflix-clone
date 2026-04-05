@@ -319,27 +319,28 @@ a {
 
 /* BIG NETFLIX NUMBER */
 
-.movie-rank {
+.movie-rank ::before {
+    content: attr(data-rank);
     position: absolute;
-    bottom: 50px;
-    left: -7px;
+    bottom: 45px;
+    left: -9px;
     font-size: 5rem;
-    font-weight: 900;
-    color: #000000;
-    -webkit-text-fill-color: #000000;
-    -webkit-text-stroke: 1px #fff; 
-    line-height: 1;
-    z-index: 10;
-    letter-spacing: -0.05em;
+    font-weight: 700;
+    color: #232020;
+    -webkit-text-fill-color: #231d1d;
+     letter-spacing: -0.05em;
      text-shadow: 
-        2px 2px 0 #000,
-        4px 4px 8px rgba(0,0,0,0.6);
-
+       -2px -2px 0 #fff,
+         2px -2px 0 #fff,
+        -2px  2px 0 #fff,
+         2px  2px 0 #fff,
+        -3px  0px 0 #fff,
+         3px  0px 0 #fff,
+         0px -3px 0 #fff,
+         0px  3px 0 #fff;
     line-height: 1;
-    z-index: 20;
     letter-spacing: -0.05em;
 }
-
 
 
 /* RIGHT FADE (PARTIAL CARD EFFECT) */
