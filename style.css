@@ -518,7 +518,7 @@ a {
     color: rgba(255, 255, 255, 0.85);
     padding: 20px;
     display: none;
-    line-height: 1.6;
+    line-height: 3;
 }
 
 .faq-content p {
