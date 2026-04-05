@@ -431,7 +431,7 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 14px;
     padding: 30px;
-    min-height: 250px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -459,12 +459,12 @@ a {
 
 .reason-icon {
     text-align: right;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .reason-icon i {
-    font-size: 3.5rem;
-    color: rgba(229, 9, 20, 0.8);
+    font-size: 3rem;
+    color: rgba(224, 16, 137, 0.8);
 }
 
 /* ==================== FAQ SECTION ==================== */
@@ -473,8 +473,7 @@ a {
 }
 
 .faq-container {
-    max-width: 800px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .faq-item {
