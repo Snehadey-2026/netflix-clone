@@ -181,7 +181,7 @@ a {
 }
 
 .trending-section {
-    background: rgb(62, 62, 152);
+    background: rgb(61, 61, 164);
     padding: 80px 40px 60px;
     max-width: 1400px;
     margin: 0 auto;
@@ -194,11 +194,9 @@ a {
     top: -55px;
     left: 50%;
     transform: translateX(-50%);
-
-    width: 140vw;
+     width: 140vw;
     max-width: 3000px;
     height: 22px;
-
     background: linear-gradient(
         90deg,
         rgba(229,9,20,0) 0%,
@@ -274,10 +272,10 @@ a {
 
 /* ==================== TRENDING SECTION ==================== */
 
-/* ==================== NETFLIX EXACT TRENDING ==================== */
+
 
 .trending-section {
-    background: #000;
+    background: #11184e;
     padding: 80px 20px 60px;
     max-width: 1240px;
     margin: auto;
