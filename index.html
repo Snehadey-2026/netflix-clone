@@ -58,41 +58,22 @@
                     </button>
                 </div>
             </div>
-        </section>
-
-    <div class="section-divider">
+        </section><div class="section-divider">
   <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
-
     <defs>
-      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <linearGradient id="netflixGradient" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="transparent"/>
-        <stop offset="15%" stop-color="#e50914"/>
-        <stop offset="30%" stop-color="#ff00a8"/>
-        <stop offset="50%" stop-color="#6a00ff"/>
-        <stop offset="70%" stop-color="#00cfff"/>
-        <stop offset="90%" stop-color="#ff3b5c"/>
+        <stop offset="20%" stop-color="#e50914"/>
+        <stop offset="40%" stop-color="#b81dff"/>
+        <stop offset="60%" stop-color="#00cfff"/>
+        <stop offset="80%" stop-color="#ff3b5c"/>
         <stop offset="100%" stop-color="transparent"/>
       </linearGradient>
-
-      <!-- 🔥 Glow filter -->
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="6" result="blur"/>
-        <feMerge>
-          <feMergeNode in="blur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-
     </defs>
 
-    <!-- 🔥 Main curve -->
-    <path class="curve-path"
-      d="M0,80 
-         C200,10 400,10 720,70 
-         C1040,120 1240,40 1440,80 
-         L1440,120 L0,120 Z">
-    </path>
-
+    <path class="divider-path"
+ d="M0,92 C400,88 620,78 720,78 C820,78 1040,88 1440,92"
+    />
   </svg>
 </div>
 

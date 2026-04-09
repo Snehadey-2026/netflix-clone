@@ -191,65 +191,31 @@ a {
     position: relative;
     overflow: visible;
 }*/
-
 .section-divider {
     position: absolute;
     bottom: -1px;
     left: 0;
     width: 100%;
-    height: 110px;
+    height: 60px; 
     z-index: 2;
-    overflow: hidden;
+    pointer-events: none;
 }
 
 .section-divider svg {
     width: 100%;
     height: 100%;
-    display: block;
 }
 
-/* 🔥 Main gradient curve */
-.curve-path {
-    fill: url(#gradient);
-    filter: url(#glow);
 
-    opacity: 0.95;
+.divider-path {
+    fill: none;
+    stroke: url(#netflixGradient);
+    stroke-width: 8; /* 🔥 VERY IMPORTANT */
+    opacity: 0.9;
 
-    animation: gradientMove 8s ease-in-out infinite alternate;
+    
+    filter: drop-shadow(0 0 4px rgba(255, 0, 120, 0.25));
 }
-
-/* 🔥 Subtle glow layer */
-.section-divider::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 60%;
-    width: 100%;
-    height: 40px;
-
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255, 0, 120, 0.15),
-        rgba(0, 200, 255, 0.15),
-        transparent
-    );
-
-    filter: blur(18px);
-    opacity: 0.6;
-    pointer-events: none;
-}
-
-/* 🔥 Animation */
-@keyframes gradientMove {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-40px);
-    }
-}
-
 
 
 .email-input-wrapper {
