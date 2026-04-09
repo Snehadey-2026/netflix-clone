@@ -1,4 +1,4 @@
-/* ==================== ROOT & VARIABLES ==================== */
+
 :root {
     --netflix-red: #e50914;
     --netflix-dark: #141414;
@@ -8,7 +8,7 @@
     --netflix-section-dark: #000;
 }
 
-/* ==================== GENERAL ==================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ a {
     color: inherit;
 }
 
-/* ==================== HEADER ==================== */
+
 .site-header {
     position: fixed;
     top: 0;
@@ -119,7 +119,7 @@ a {
     background: #c11119;
 }
 
-/* ==================== HERO SECTION ==================== */
+
 .hero-section {
     position: relative;
     min-height: 100vh;
@@ -175,7 +175,7 @@ a {
 .hero-description {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.12rem; 
-    font-weight: 400;
+    font-weight: 500;
     color: rgba(255, 255, 255, 0.85);
     margin-bottom: 18px;
     max-width: none;          
@@ -183,14 +183,7 @@ a {
     text-align: center;
 }
 
-/*.trending-section {
-    background: rgb(61, 61, 164);
-    padding: 80px 40px 60px;
-    max-width: 1400px;
-    margin: 0 auto;
-    position: relative;
-    overflow: visible;
-}*/
+
 .section-divider {
     position: absolute;
     bottom: -1px;
@@ -210,10 +203,8 @@ a {
 .divider-path {
     fill: none;
     stroke: url(#netflixGradient);
-    stroke-width: 8; /* 🔥 VERY IMPORTANT */
+    stroke-width: 8; 
     opacity: 0.9;
-
-    
     filter: drop-shadow(0 0 4px rgba(255, 0, 120, 0.25));
 }
 
@@ -230,7 +221,7 @@ a {
 .email-input {
     flex: 1;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1rem;              /* Netflix uses ~16px */
+    font-size: 1rem;             
     font-weight: 400;
     color: #e3e3de;
     background: rgba(0, 0, 0, 0.6);
@@ -263,13 +254,13 @@ a {
     background: #f40612;
 }
 
-/* ==================== TRENDING SECTION ==================== */
+
 
 
 
 .trending-section {
     background: #11184e;
-    padding: 80px 40px 60px;  /* 🔥 INCREASE TOP SPACE */
+    padding: 80px 40px 60px;  
     max-width: 1300px;
     margin: 100px auto;
     position: relative;
@@ -277,7 +268,7 @@ a {
     
     }
 
-/* TITLE */
+
 
 .section-title {
     font-size: 1.8rem;
@@ -285,7 +276,7 @@ a {
     margin-bottom: 30px;
 }
 
-/* MOVIE ROW */
+
 
 .movie-row {
     display: flex;
@@ -294,7 +285,7 @@ a {
     position: relative;
 }
 
-/* CARD */
+
 
 .movie-item {
     flex: 0 0 calc((100% - 4 * 30px) / 5);
@@ -313,14 +304,14 @@ a {
     border-radius: 10px;
 }
 
-/* HOVER */
+
 
 .movie-item:hover {
     transform: scale(1.08);
     z-index: 10;
 }
 
-/* BIG NETFLIX NUMBER */
+
 .movie-rank {
     position: absolute;
     bottom: 45px;
@@ -347,7 +338,7 @@ a {
     letter-spacing: -0.05em;
 }
 
-/* RIGHT FADE (PARTIAL CARD EFFECT) */
+
 
 .movie-row::after {
     content: "";
@@ -360,7 +351,7 @@ a {
     pointer-events: none;
 }
 
-/* ARROW POSITION (AFTER 5 CARDS) */
+
 
 .carousel-control-next {
     right: -40px;
@@ -384,7 +375,7 @@ a {
     opacity: 1;
 }
 
-/* ARROW STYLE */
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -412,7 +403,7 @@ a {
     opacity: 0.3;
     pointer-events: none;
 }
-/* ==================== BODY SECTION ==================== */
+
 .body-section {
     background: var(--netflix-darker);
     padding: 60px 40px;
@@ -420,7 +411,7 @@ a {
     margin: 0 auto;
 }
 
-/* ==================== REASONS SECTION ==================== */
+
 .reasons-wrapper {
     margin-bottom: 80px;
 }
@@ -472,7 +463,7 @@ a {
     color: rgba(224, 16, 137, 0.8);
 }
 
-/* ==================== FAQ SECTION ==================== */
+
 .faq-wrapper {
     margin-bottom: 60px;
 }
@@ -481,7 +472,7 @@ a {
     width: 100%;
 }
 
-/* Bootstrap Accordion Overrides */
+
 .accordion-item {
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -549,7 +540,7 @@ a {
     margin-bottom: 0;
 }
 
-/* ==================== EMAIL CTA SECTION ==================== */
+
 .email-cta-wrapper {
     text-align: center;
     padding: 60px 40px;
@@ -562,7 +553,7 @@ a {
     margin-bottom: 25px;
 }
 
-/* ==================== FOOTER ==================== */
+
 .footer-section {
     background: var(--netflix-darker);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -639,7 +630,7 @@ a {
     color: var(--netflix-red);
 }
 
-/* ==================== RESPONSIVE ==================== */
+
 @media (max-width: 768px) {
     .header-container {
         padding: 0 20px;
